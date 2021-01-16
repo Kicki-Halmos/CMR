@@ -10,8 +10,8 @@ const createUpdateForm = [
 ];
 
 const login = [
-  ["email", "Email", "email", "kickihalmos@gmail.com"],
-  ["password", "Password", "password", "javascriptoramverk"],
+  ["email", "Email", "email"],
+  ["password", "Password", "password"],
 ];
 
 export { createUpdateForm, login };

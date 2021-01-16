@@ -15,8 +15,6 @@ export default function PageGenerator({
   id,
 }) {
   const [formData, setFormData] = useState({
-    email: "kickihalmos@gmail.com",
-    password: "javascriptoramverk",
   });
   const history = useHistory();
   const { customerList, setCustomerList } = useContext(CustomersContext);
